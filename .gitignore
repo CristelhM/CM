@@ -2,3 +2,4 @@
 .vagrant/machines/linux_server/virtualbox/creator_uid
 .vagrant/machines/linux_server/virtualbox/id
 .vagrant/machines/linux_server/virtualbox/index_uuid
+src/npm-debug.log
