@@ -16,18 +16,12 @@ function signinExists() {
   return elements.value.length > 0;
 }
 
-describe('list ui', function () {
+describe('list ui', function () {    
   beforeEach(function () {
-    browser.url('http://localhost:3000');
-    //server.call('generateFixtures');
+    browser.url('http://localhost:3000');    
   });
 
-  it('can sign up @watch', function () {
-    //const initialCount = countLists();
-
-    //browser.click('.js-new-list');
-
-    //assert.equal(countLists(), initialCount + 1);
+  it('can sign up @watch', function () {    
     const hasSignUp = signinExists();
     assert.equal(hasSignUp, true);
   });
